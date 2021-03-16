@@ -1,0 +1,5 @@
+代码遗留问题
+1.socketserver端口重用问题
+2.训练结束线程无法自动结束，多出一个线程
+3.result = torch.from_numpy(n).view(t.size())存在警告
+4.MNIST数据集无法下载
